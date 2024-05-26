@@ -1,7 +1,17 @@
-.navbar-brand {
-    font-family: 'Pacifico'
+.text-red{
+    color: red;
 }
-.img-container img{
-    width:100%;
-}       
-
+.nav-link.active {
+  color: blue; 
+}
+.img-container {
+  padding-right: 5px; 
+}
+.row.g-1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.img-container img {
+    height: 350px;
+    object-fit: cover; 
+}
